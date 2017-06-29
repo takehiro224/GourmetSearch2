@@ -7,21 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		70E072384A2B668A4DD1B500 /* Pods_GourmetSearch2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D72449467DE0A9E52063309 /* Pods_GourmetSearch2.framework */; };
+		F94A3FA91F007A0F006EFFBC /* SearchTopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94A3FA81F007A0F006EFFBC /* SearchTopTableViewController.swift */; };
+		F94A3FAB1F007A33006EFFBC /* FreeWordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94A3FAA1F007A33006EFFBC /* FreeWordTableViewCell.swift */; };
+		F9822A451F0468A1006422D4 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9822A441F0468A1006422D4 /* Favorite.swift */; };
+		F9822A481F047703006422D4 /* SearchNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9822A471F047703006422D4 /* SearchNavigationController.swift */; };
+		F9822A4A1F04772D006422D4 /* FavoriteNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9822A491F04772D006422D4 /* FavoriteNavigationController.swift */; };
+		F98635EF1F01D84B00DBF1E5 /* ShopDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98635EE1F01D84B00DBF1E5 /* ShopDetailViewController.swift */; };
 		F9EE1BEE1EF8863D002DE95B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1BED1EF8863D002DE95B /* AppDelegate.swift */; };
-		F9EE1BF01EF8863D002DE95B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1BEF1EF8863D002DE95B /* ViewController.swift */; };
+		F9EE1BF01EF8863D002DE95B /* ShopListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1BEF1EF8863D002DE95B /* ShopListViewController.swift */; };
 		F9EE1BF31EF8863D002DE95B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EE1BF11EF8863D002DE95B /* Main.storyboard */; };
 		F9EE1BF51EF8863D002DE95B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9EE1BF41EF8863D002DE95B /* Assets.xcassets */; };
 		F9EE1BF81EF8863D002DE95B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EE1BF61EF8863D002DE95B /* LaunchScreen.storyboard */; };
+		F9EE1C061EF896E0002DE95B /* ShopListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1C051EF896E0002DE95B /* ShopListItemTableViewCell.swift */; };
+		F9EE1C0E1EF9D8E3002DE95B /* YahooLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1C0D1EF9D8DE002DE95B /* YahooLocal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D72449467DE0A9E52063309 /* Pods_GourmetSearch2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GourmetSearch2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		499624D4B03794428EF297F3 /* Pods-GourmetSearch2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GourmetSearch2.release.xcconfig"; path = "Pods/Target Support Files/Pods-GourmetSearch2/Pods-GourmetSearch2.release.xcconfig"; sourceTree = "<group>"; };
+		77B7AC89B98E8EA092FE39D0 /* Pods-GourmetSearch2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GourmetSearch2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GourmetSearch2/Pods-GourmetSearch2.debug.xcconfig"; sourceTree = "<group>"; };
+		F94A3FA81F007A0F006EFFBC /* SearchTopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTopTableViewController.swift; sourceTree = "<group>"; };
+		F94A3FAA1F007A33006EFFBC /* FreeWordTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeWordTableViewCell.swift; sourceTree = "<group>"; };
+		F9822A441F0468A1006422D4 /* Favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		F9822A471F047703006422D4 /* SearchNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchNavigationController.swift; sourceTree = "<group>"; };
+		F9822A491F04772D006422D4 /* FavoriteNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteNavigationController.swift; sourceTree = "<group>"; };
+		F98635EE1F01D84B00DBF1E5 /* ShopDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopDetailViewController.swift; sourceTree = "<group>"; };
 		F9EE1BEA1EF8863D002DE95B /* GourmetSearch2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GourmetSearch2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EE1BED1EF8863D002DE95B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F9EE1BEF1EF8863D002DE95B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9EE1BEF1EF8863D002DE95B /* ShopListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopListViewController.swift; sourceTree = "<group>"; };
 		F9EE1BF21EF8863D002DE95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9EE1BF41EF8863D002DE95B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9EE1BF71EF8863D002DE95B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9EE1BF91EF8863D002DE95B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9EE1BFF1EF88B5D002DE95B /* GourmetSearch2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GourmetSearch2-Bridging-Header.h"; sourceTree = "<group>"; };
+		F9EE1C031EF88E23002DE95B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F9EE1C051EF896E0002DE95B /* ShopListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopListItemTableViewCell.swift; sourceTree = "<group>"; };
+		F9EE1C0D1EF9D8DE002DE95B /* YahooLocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooLocal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70E072384A2B668A4DD1B500 /* Pods_GourmetSearch2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06C24ECD1DA2B529A87E6364 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77B7AC89B98E8EA092FE39D0 /* Pods-GourmetSearch2.debug.xcconfig */,
+				499624D4B03794428EF297F3 /* Pods-GourmetSearch2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8D938E1BA7A5AF79394879D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D72449467DE0A9E52063309 /* Pods_GourmetSearch2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9822A461F0476C8006422D4 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				F9822A471F047703006422D4 /* SearchNavigationController.swift */,
+				F9822A491F04772D006422D4 /* FavoriteNavigationController.swift */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
 		F9EE1BE11EF8863C002DE95B = {
 			isa = PBXGroup;
 			children = (
 				F9EE1BEC1EF8863D002DE95B /* GourmetSearch2 */,
 				F9EE1BEB1EF8863D002DE95B /* Products */,
+				06C24ECD1DA2B529A87E6364 /* Pods */,
+				D8D938E1BA7A5AF79394879D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,38 @@
 		F9EE1BEC1EF8863D002DE95B /* GourmetSearch2 */ = {
 			isa = PBXGroup;
 			children = (
+				F9822A461F0476C8006422D4 /* Tabs */,
+				F9EE1C0C1EF9D8B3002DE95B /* Common */,
+				F9EE1C041EF896B0002DE95B /* ShopList */,
 				F9EE1BED1EF8863D002DE95B /* AppDelegate.swift */,
-				F9EE1BEF1EF8863D002DE95B /* ViewController.swift */,
 				F9EE1BF11EF8863D002DE95B /* Main.storyboard */,
 				F9EE1BF41EF8863D002DE95B /* Assets.xcassets */,
 				F9EE1BF61EF8863D002DE95B /* LaunchScreen.storyboard */,
 				F9EE1BF91EF8863D002DE95B /* Info.plist */,
+				F9EE1BFF1EF88B5D002DE95B /* GourmetSearch2-Bridging-Header.h */,
 			);
 			path = GourmetSearch2;
+			sourceTree = "<group>";
+		};
+		F9EE1C041EF896B0002DE95B /* ShopList */ = {
+			isa = PBXGroup;
+			children = (
+				F94A3FA81F007A0F006EFFBC /* SearchTopTableViewController.swift */,
+				F9EE1BEF1EF8863D002DE95B /* ShopListViewController.swift */,
+				F9EE1C051EF896E0002DE95B /* ShopListItemTableViewCell.swift */,
+				F94A3FAA1F007A33006EFFBC /* FreeWordTableViewCell.swift */,
+				F98635EE1F01D84B00DBF1E5 /* ShopDetailViewController.swift */,
+			);
+			name = ShopList;
+			sourceTree = "<group>";
+		};
+		F9EE1C0C1EF9D8B3002DE95B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F9822A441F0468A1006422D4 /* Favorite.swift */,
+				F9EE1C0D1EF9D8DE002DE95B /* YahooLocal.swift */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9EE1BFC1EF8863D002DE95B /* Build configuration list for PBXNativeTarget "GourmetSearch2" */;
 			buildPhases = (
+				6A288E14DFE8537BDA188AD0 /* [CP] Check Pods Manifest.lock */,
 				F9EE1BE61EF8863C002DE95B /* Sources */,
 				F9EE1BE71EF8863C002DE95B /* Frameworks */,
 				F9EE1BE81EF8863C002DE95B /* Resources */,
+				39B4384FA283F5E88A6A1ECC /* [CP] Embed Pods Frameworks */,
+				4010EDF11C1C1AFA8094DA6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +175,7 @@
 					F9EE1BE91EF8863C002DE95B = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 38HYQS5SV4;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -106,7 +185,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
 			);
 			mainGroup = F9EE1BE11EF8863C002DE95B;
@@ -132,13 +210,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39B4384FA283F5E88A6A1ECC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GourmetSearch2/Pods-GourmetSearch2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4010EDF11C1C1AFA8094DA6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GourmetSearch2/Pods-GourmetSearch2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A288E14DFE8537BDA188AD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F9EE1BE61EF8863C002DE95B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9EE1BF01EF8863D002DE95B /* ViewController.swift in Sources */,
+				F9EE1C061EF896E0002DE95B /* ShopListItemTableViewCell.swift in Sources */,
+				F9822A451F0468A1006422D4 /* Favorite.swift in Sources */,
+				F9EE1BF01EF8863D002DE95B /* ShopListViewController.swift in Sources */,
+				F9EE1C0E1EF9D8E3002DE95B /* YahooLocal.swift in Sources */,
+				F94A3FAB1F007A33006EFFBC /* FreeWordTableViewCell.swift in Sources */,
+				F98635EF1F01D84B00DBF1E5 /* ShopDetailViewController.swift in Sources */,
 				F9EE1BEE1EF8863D002DE95B /* AppDelegate.swift in Sources */,
+				F9822A4A1F04772D006422D4 /* FavoriteNavigationController.swift in Sources */,
+				F94A3FA91F007A0F006EFFBC /* SearchTopTableViewController.swift in Sources */,
+				F9822A481F047703006422D4 /* SearchNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +291,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F9EE1BF71EF8863D002DE95B /* Base */,
+				F9EE1C031EF88E23002DE95B /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -205,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -218,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -249,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -259,26 +396,33 @@
 		};
 		F9EE1BFD1EF8863D002DE95B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B7AC89B98E8EA092FE39D0 /* Pods-GourmetSearch2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 38HYQS5SV4;
 				INFOPLIST_FILE = GourmetSearch2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.shinwart.GourmetSearch2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GourmetSearch2/GourmetSearch2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F9EE1BFE1EF8863D002DE95B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 499624D4B03794428EF297F3 /* Pods-GourmetSearch2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 38HYQS5SV4;
 				INFOPLIST_FILE = GourmetSearch2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.shinwart.GourmetSearch2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GourmetSearch2/GourmetSearch2-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +446,7 @@
 				F9EE1BFE1EF8863D002DE95B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
